@@ -9,7 +9,7 @@ IRONHACK Project work related on the public transportation
     Considering this forecast and the increasing constitution of Megacities, air quality as become one of the most important indicators of lifequality.
     
     For this reason, we have collected data from thre different cities: Madrid, Berlin and Hong Kong. For each of them we gathered:
-    - historical pollution data for the following pollutants: CO(mg), NO_2(µg), NOx(µg), O_3(µg), PM10(µg), PM25(µg), SO_2(µg). Max granularity is daily.
+    - historical pollution data for the following pollutants: CO(mg/m3), NO_2(µg/m3), NOx(µg/m3), O_3(µg/m3), PM10(µg/m3), PM25(µg/m3), SO_2(µg/m3). Max granularity is daily.
     - yearly population
     - public transport length (km)  
 
