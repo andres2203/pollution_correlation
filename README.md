@@ -1,8 +1,8 @@
-# Pollution Correlation with public transportation and growing population
+Pollution Correlation with public transportation and growing population
 
 IRONHACK Project work related on the public transportation
 
-## 1. Description
+1. Description
 
     Today, 3.6 billion people (https://www.mckinsey.com/featured-insights/urbanization/how-to-make-a-city-great) are living in cities. By 2030, that number is expected to reach 5 billion. That means that by 2030, 60 percent of the world’s population will live in cities.
 
@@ -13,7 +13,7 @@ IRONHACK Project work related on the public transportation
     - yearly population
     - public transport length (km)  
 
-## 2. Folders and Files
+2. Folders and Files
     - FOLDERS:
         - Hong Kong Data: 
             - HK_pollution_data: all .csv's with the historical pollution info of Hong Kong
@@ -44,10 +44,10 @@ IRONHACK Project work related on the public transportation
         - population_mad: notebook were Madrid's population has been webscrapped, cleaned and formated in single df
         - public_transport_cities: notebook were public transport information for the three cities has been webscrapped, cleaned and formated in single df
 
-## 3. Results
+3. Results
 
 
-## 4. Python libraries used:
+4. Python libraries used:
 
     - Pandas
     - Numpy
@@ -57,7 +57,7 @@ IRONHACK Project work related on the public transportation
     - re
     - matplotlib
 
-## 5. Sources for the information collected:
+5. Sources for the information collected:
 
     - Honk Kong:
         - Pollution: https://cd.epic.epd.gov.hk/EPICDI/air/station/
@@ -74,7 +74,7 @@ IRONHACK Project work related on the public transportation
             - https://en.wikipedia.org/wiki/Madrid
             - https://www.crtm.es/tu-transporte-publico/ 
 
-## 6. Environment dependancies:
+6. Environment dependancies:
     - appnope==0.1.0
     - asn1crypto==1.2.0
     - attrs==19.2.0
