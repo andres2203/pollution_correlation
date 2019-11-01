@@ -21,30 +21,41 @@ IRONHACK Project work related on the public transportation
             - Hong Kong Population.ipynb: notebook were HK's population has been webscrapped
         - pollution_madrid: all .csv's with the historical pollution info of Madrid
         - pickles:
-            - berlin_pollution: exported file with cleaned berlin pollution
-            - berlin_population: exported file with cleaned berlin population
+            - berlin_pollution: exported pkl with cleaned berlin pollution
+            - berlin_population: exported pkl with cleaned berlin population
             - combined_dataframe: pkl with single df that concat merged_pollution and merged_population
-            - hk_pollution: exported file with cleaned hong kong pollution
-            - hk_population: exported file with cleaned hong kong population
-            - madrid_pollution: exported file with cleaned madrid pollution
-            - madrid_population: exported file with cleaned madrid population
+            - hk_pollution: exported pkl with cleaned hong kong pollution
+            - hk_population: exported pkl with cleaned hong kong population
+            - madrid_pollution: exported pkl with cleaned madrid pollution
+            - madrid_population: exported pkl with cleaned madrid population
             - merged_pollution: pkl with single df concat berlin_pollution, madrid_pollution and hk_pollution
             - merged_population: pkl with single df concat berlin_population, madrid_population and hk_population
+            - transport_km: pkl with a single df with cleaned public transport lenghts from madrid, berlin and hong kong
     - Files:
         - .gitignore
         - DS_Store
         - Berlin-Data: notebook that automatically downloads, opens and cleans data about berlin's pollution from guvernamental website
-        - DataFrame_Pollution_population: notebook that imports merged_pollution and merged_population and concats them in a single df
+        - DataFrame_Pollution_population: notebook that imports merged_pollution, merged_population and transport_km and concats them in a single df
+        - Live_poll_traff_data: program that by giving a city it gives you live data about the traffic and the air quality
         - Merged pollution: notebook that imports berlin_pollution, madrid_pollution and hk_pollution and concats them in a single df
         - Merged population: notebook that imports berlin_population, madrid_population and hk_population and concats them in a single df
         - Plotting_Pollution: notebook that imports merged pollution and plots the evolution of the pollutants in time for each of the three cities.
+        - Plotting_all: notebook that imports combined_dataframe and plots some graphs to see correlations
+        - Plotting_population: notebook that imports combined_dataframe and plots the evolution of population in time
         - README.md: you are reading me! ;)
         - pollution_mad: notebook were the pollution .csv's have been merged in single df, cleaned and formated 
         - population_berlin: notebook were Berlin's population has been obtained through API, cleaned and formated in single df
-        - population_mad: notebook were Madrid's population has been webscrapped, cleaned and formated in single df
+        - population_madrid: notebook were Madrid's population has been webscrapped, cleaned and formated in single df
         - public_transport_cities: notebook were public transport information for the three cities has been webscrapped, cleaned and formated in single df
 
 3. Results
+    
+    The analyses show:
+    - There has been an increase in population in the three selected cities
+    - The concentration of the pollutants analyzed is higher in Hong Kong than the in Madrid and Berlin
+    - For each pollutant in each city, there is seasonality related to the pollutant's emission
+
+    Considerations: Please do not take this results as fully representative, due to the complex topic and the limited amount of data we could work with and analyze together.
 
 
 4. Python libraries used:
@@ -73,6 +84,11 @@ IRONHACK Project work related on the public transportation
         - Public transport:
             - https://en.wikipedia.org/wiki/Madrid
             - https://www.crtm.es/tu-transporte-publico/ 
+    - European standard for air quality: https://ec.europa.eu/environment/air/quality/standards.htm 
+    - Live data:
+        - Pollution: https://waqi.info 
+        - Traffic: https://www.tomtom.com/de_de/ 
+        - Coordinates: https://nominatim.openstreetmap.org 
 
 6. Environment dependancies:
     - appnope==0.1.0
