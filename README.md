@@ -14,6 +14,7 @@
     - public transport length (km)  
 
 ### 2. Folders and Files
+
     - FOLDERS:
         - Hong Kong Data: 
             - HK_pollution_data: all .csv's with the historical pollution info of Hong Kong
@@ -49,7 +50,8 @@
         - public_transport_cities: notebook were public transport information for the three cities has been webscrapped, cleaned and formated in single df
 
 ### 3. Results
-    
+
+
     The analyses show:
     - There has been an increase in population in the three selected cities
     - The concentration of the pollutants analyzed is higher in Hong Kong than the in Madrid and Berlin
@@ -60,6 +62,7 @@
 
 ### 4. Python libraries used:
 
+
     - Pandas
     - Numpy
     - requests
@@ -69,6 +72,7 @@
     - matplotlib
 
 ### 5. Sources for the information collected:
+
 
     - Honk Kong:
         - Pollution: https://cd.epic.epd.gov.hk/EPICDI/air/station/
