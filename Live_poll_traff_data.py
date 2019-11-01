@@ -1,12 +1,12 @@
-#! python3
+#! python
 
 import pandas as pd
 import requests
 import json
 import getpass
 
-key=getpass.getpass(input("your pw"))
-token=getpass.getpass()
+key=getpass.getpass(input("your pw: "))
+token=getpass.getpass(input("tomtom token please: "))
 
 
 def live_pollution(token,city):
