@@ -64,6 +64,7 @@ The analyses show:
 
 Considerations: Please do not take this results as fully representative, due to the complex topic and the limited amount of data we could work with and analyze together.
 
+Presentation to be found here: https://docs.google.com/presentation/d/1uDoccWTmvSmVFLjEgQGNZ63esCxVR9VeySCDRvy5U4w/edit?usp=sharing
 
 ### 4. Python libraries used:
 
