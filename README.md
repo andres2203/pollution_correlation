@@ -4,7 +4,7 @@
 
 ### 1. Description
 
-Today, 3.6 billion people (https://www.mckinsey.com/featured-insights/urbanization/how-to-make-a-city-great) are living in cities. By 2030, that number is expected to reach 5 billion. That means that by 2030, 60 percent of the world’s population will live in cities.
+Today, [3.6 billion people](https://www.mckinsey.com/featured-insights/urbanization/how-to-make-a-city-great) are living in cities. By 2030, that number is expected to reach 5 billion. That means that by 2030, 60 percent of the world’s population will live in cities.
 
 Considering this forecast and the increasing constitution of Megacities, air quality as become one of the most important indicators of lifequality.
     
