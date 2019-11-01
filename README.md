@@ -17,12 +17,15 @@ For this reason, we have collected data from thre different cities: Madrid, Berl
 ### 2. Folders and Files
 
 - FOLDERS:
-        - Hong Kong Data: 
-            - HK_pollution_data: all .csv's with the historical pollution info of Hong Kong
-            - HK pollution index.ipynb: notebook were the pollution csv have been merged in single df, cleaned and formated
-            - Hong Kong Population.ipynb: notebook were HK's population has been webscrapped
-        - pollution_madrid: all .csv's with the historical pollution info of Madrid
-        - pickles:
+
+    - Hong Kong Data: 
+            
+     - HK_pollution_data: all .csv's with the historical pollution info of Hong Kong
+     - HK pollution index.ipynb: notebook were the pollution csv have been merged in single df, cleaned and formated
+     - Hong Kong Population.ipynb: notebook were HK's population has been webscrapped
+        
+    - pollution_madrid: all .csv's with the historical pollution info of Madrid
+    - pickles:
             - berlin_pollution: exported pkl with cleaned berlin pollution
             - berlin_population: exported pkl with cleaned berlin population
             - combined_dataframe: pkl with single df that concat merged_pollution and merged_population
