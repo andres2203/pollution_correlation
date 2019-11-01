@@ -19,9 +19,9 @@ For this reason, we have collected data from thre different cities: Madrid, Berl
 - FOLDERS:
 
     - Hong Kong Data:    
-             - HK_pollution_data: all .csv's with the historical pollution info of Hong Kong
-             - HK pollution index.ipynb: notebook were the pollution csv have been merged in single df, cleaned and formated
-             - Hong Kong Population.ipynb: notebook were HK's population has been webscrapped
+         - HK_pollution_data: all .csv's with the historical pollution info of Hong Kong
+         - HK pollution index.ipynb: notebook were the pollution csv have been merged in single df, cleaned and formated
+         - Hong Kong Population.ipynb: notebook were HK's population has been webscrapped
         
     - pollution_madrid: all .csv's with the historical pollution info of Madrid
     - pickles:
@@ -89,9 +89,8 @@ Considerations: Please do not take this results as fully representative, due to 
     - Pollution: https://datos.madrid.es/portal/site/egob 
     - Population: https://datosmacro.expansion.com/demografia/poblacion/espana-comunidades-autonomas/madrid 
     - Public transport:
-  
-    - https://en.wikipedia.org/wiki/Madrid
-    - https://www.crtm.es/tu-transporte-publico/ 
+        - https://en.wikipedia.org/wiki/Madrid
+        - https://www.crtm.es/tu-transporte-publico/ 
         
 - European standard for air quality: https://ec.europa.eu/environment/air/quality/standards.htm 
 - Live data:
