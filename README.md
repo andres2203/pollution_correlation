@@ -9,9 +9,10 @@ Today, 3.6 billion people (https://www.mckinsey.com/featured-insights/urbanizati
 Considering this forecast and the increasing constitution of Megacities, air quality as become one of the most important indicators of lifequality.
     
 For this reason, we have collected data from thre different cities: Madrid, Berlin and Hong Kong. For each of them we gathered:
-    - historical pollution data for the following pollutants: CO(mg/m3), NO_2(µg/m3), NOx(µg/m3), O_3(µg/m3), PM10(µg/m3), PM25(µg/m3), SO_2(µg/m3). Max granularity is daily.
-    - yearly population
-    - public transport length (km)  
+
+- historical pollution data for the following pollutants: CO(mg/m3), NO_2(µg/m3), NOx(µg/m3), O_3(µg/m3), PM10(µg/m3), PM25(µg/m3), SO_2(µg/m3). Max granularity is daily.
+- yearly population
+- public transport length (km)  
 
 ### 2. Folders and Files
 
