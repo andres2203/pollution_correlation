@@ -25,17 +25,18 @@ For this reason, we have collected data from thre different cities: Madrid, Berl
         
     - pollution_madrid: all .csv's with the historical pollution info of Madrid
     - pickles:
-            - berlin_pollution: exported pkl with cleaned berlin pollution
-            - berlin_population: exported pkl with cleaned berlin population
-            - combined_dataframe: pkl with single df that concat merged_pollution and merged_population
-            - hk_pollution: exported pkl with cleaned hong kong pollution
-            - hk_population: exported pkl with cleaned hong kong population
-            - madrid_pollution: exported pkl with cleaned madrid pollution
-            - madrid_population: exported pkl with cleaned madrid population
-            - merged_pollution: pkl with single df concat berlin_pollution, madrid_pollution and hk_pollution
-            - merged_population: pkl with single df concat berlin_population, madrid_population and hk_population
-            - transport_km: pkl with a single df with cleaned public transport lenghts from madrid, berlin and hong kong
- - Files:
+    
+        - berlin_pollution: exported pkl with cleaned berlin pollution
+        - berlin_population: exported pkl with cleaned berlin population
+        - combined_dataframe: pkl with single df that concat merged_pollution and merged_population
+        - hk_pollution: exported pkl with cleaned hong kong pollution
+        - hk_population: exported pkl with cleaned hong kong population
+        - madrid_pollution: exported pkl with cleaned madrid pollution
+        - madrid_population: exported pkl with cleaned madrid population
+        - merged_pollution: pkl with single df concat berlin_pollution, madrid_pollution and hk_pollution
+        - merged_population: pkl with single df concat berlin_population, madrid_population and hk_population
+        - transport_km: pkl with a single df with cleaned public transport lenghts from madrid, berlin and hong kong
+ - FILES:
  
     - .gitignore
     - DS_Store
