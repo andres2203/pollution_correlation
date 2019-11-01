@@ -18,11 +18,10 @@ For this reason, we have collected data from thre different cities: Madrid, Berl
 
 - FOLDERS:
 
-    - Hong Kong Data: 
-            
-     - HK_pollution_data: all .csv's with the historical pollution info of Hong Kong
-     - HK pollution index.ipynb: notebook were the pollution csv have been merged in single df, cleaned and formated
-     - Hong Kong Population.ipynb: notebook were HK's population has been webscrapped
+    - Hong Kong Data:    
+             - HK_pollution_data: all .csv's with the historical pollution info of Hong Kong
+             - HK pollution index.ipynb: notebook were the pollution csv have been merged in single df, cleaned and formated
+             - Hong Kong Population.ipynb: notebook were HK's population has been webscrapped
         
     - pollution_madrid: all .csv's with the historical pollution info of Madrid
     - pickles:
@@ -37,28 +36,30 @@ For this reason, we have collected data from thre different cities: Madrid, Berl
             - merged_population: pkl with single df concat berlin_population, madrid_population and hk_population
             - transport_km: pkl with a single df with cleaned public transport lenghts from madrid, berlin and hong kong
  - Files:
-        - .gitignore
-        - DS_Store
-        - Berlin-Data: notebook that automatically downloads, opens and cleans data about berlin's pollution from guvernamental website
-        - DataFrame_Pollution_population: notebook that imports merged_pollution, merged_population and transport_km and concats them in a single df
-        - Live_poll_traff_data: program that by giving a city it gives you live data about the traffic and the air quality
-        - Merged pollution: notebook that imports berlin_pollution, madrid_pollution and hk_pollution and concats them in a single df
-        - Merged population: notebook that imports berlin_population, madrid_population and hk_population and concats them in a single df
-        - Plotting_Pollution: notebook that imports merged pollution and plots the evolution of the pollutants in time for each of the three cities.
-        - Plotting_all: notebook that imports combined_dataframe and plots some graphs to see correlations
-        - Plotting_population: notebook that imports combined_dataframe and plots the evolution of population in time
-        - README.md: you are reading me! ;)
-        - pollution_mad: notebook were the pollution .csv's have been merged in single df, cleaned and formated 
-        - population_berlin: notebook were Berlin's population has been obtained through API, cleaned and formated in single df
-        - population_madrid: notebook were Madrid's population has been webscrapped, cleaned and formated in single df
-        - public_transport_cities: notebook were public transport information for the three cities has been webscrapped, cleaned and formated in single df
+ 
+    - .gitignore
+    - DS_Store
+    - Berlin-Data: notebook that automatically downloads, opens and cleans data about berlin's pollution from guvernamental website
+    - DataFrame_Pollution_population: notebook that imports merged_pollution, merged_population and transport_km and concats them in a single df
+    - Live_poll_traff_data: program that by giving a city it gives you live data about the traffic and the air quality
+    - Merged pollution: notebook that imports berlin_pollution, madrid_pollution and hk_pollution and concats them in a single df
+    - Merged population: notebook that imports berlin_population, madrid_population and hk_population and concats them in a single df
+    - Plotting_Pollution: notebook that imports merged pollution and plots the evolution of the pollutants in time for each of the three cities.
+    - Plotting_all: notebook that imports combined_dataframe and plots some graphs to see correlations
+    - Plotting_population: notebook that imports combined_dataframe and plots the evolution of population in time
+    - README.md: you are reading me! ;)
+    - pollution_mad: notebook were the pollution .csv's have been merged in single df, cleaned and formated 
+    - population_berlin: notebook were Berlin's population has been obtained through API, cleaned and formated in single df
+    - population_madrid: notebook were Madrid's population has been webscrapped, cleaned and formated in single df
+    - public_transport_cities: notebook were public transport information for the three cities has been webscrapped, cleaned and formated in single df
 
 ### 3. Results
 
 The analyses show:
-    - There has been an increase in population in the three selected cities
-    - The concentration of the pollutants analyzed is higher in Hong Kong than the in Madrid and Berlin
-    - For each pollutant in each city, there is seasonality related to the pollutant's emission
+
+- There has been an increase in population in the three selected cities
+- The concentration of the pollutants analyzed is higher in Hong Kong than the in Madrid and Berlin
+- For each pollutant in each city, there is seasonality related to the pollutant's emission
 
 Considerations: Please do not take this results as fully representative, due to the complex topic and the limited amount of data we could work with and analyze together.
 
@@ -87,8 +88,10 @@ Considerations: Please do not take this results as fully representative, due to 
     - Pollution: https://datos.madrid.es/portal/site/egob 
     - Population: https://datosmacro.expansion.com/demografia/poblacion/espana-comunidades-autonomas/madrid 
     - Public transport:
-        - https://en.wikipedia.org/wiki/Madrid
-        - https://www.crtm.es/tu-transporte-publico/ 
+  
+    - https://en.wikipedia.org/wiki/Madrid
+    - https://www.crtm.es/tu-transporte-publico/ 
+        
 - European standard for air quality: https://ec.europa.eu/environment/air/quality/standards.htm 
 - Live data:
     - Pollution: https://waqi.info 
